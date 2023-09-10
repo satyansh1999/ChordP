@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#00101C"
+    android:background="@color/green_700"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -22,45 +22,45 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="5dp"
-            android:buttonTint="#2196F3"
-            android:outlineAmbientShadowColor="#2196F3"
-            android:outlineSpotShadowColor="#2196F3"
+            android:buttonTint="@color/green_100"
+            android:outlineAmbientShadowColor="@color/green_100"
+            android:outlineSpotShadowColor="@color/green_100"
             android:paddingHorizontal="20px"
             android:paddingVertical="20px"
-            android:shadowColor="#2196F3"
+            android:shadowColor="@color/green_100"
             android:text="E"
-            android:textColor="#15AEF3"
-            android:textColorLink="#2196F3" />
+            android:textColor="@color/green_100"
+            android:textColorLink="@color/green_100" />
 
         <CheckBox
             android:id="@+id/FM"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="5dp"
-            android:buttonTint="#2196F3"
-            android:outlineAmbientShadowColor="#2196F3"
-            android:outlineSpotShadowColor="#2196F3"
+            android:buttonTint="@color/green_100"
+            android:outlineAmbientShadowColor="@color/green_100"
+            android:outlineSpotShadowColor="@color/green_100"
             android:paddingHorizontal="20px"
             android:paddingVertical="20px"
-            android:shadowColor="#2196F3"
+            android:shadowColor="@color/green_100"
             android:text="F"
-            android:textColor="#15AEF3"
-            android:textColorLink="#2196F3" />
+            android:textColor="@color/green_100"
+            android:textColorLink="@color/green_100" />
 
         <CheckBox
             android:id="@+id/GM"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginHorizontal="5dp"
-            android:buttonTint="#2196F3"
-            android:outlineAmbientShadowColor="#2196F3"
-            android:outlineSpotShadowColor="#2196F3"
+            android:buttonTint="@color/green_100"
+            android:outlineAmbientShadowColor="@color/green_100"
+            android:outlineSpotShadowColor="@color/green_100"
             android:paddingHorizontal="20px"
             android:paddingVertical="20px"
-            android:shadowColor="#2196F3"
+            android:shadowColor="@color/green_100"
             android:text="G"
-            android:textColor="#15AEF3"
-            android:textColorLink="#2196F3" />
+            android:textColor="@color/green_100"
+            android:textColorLink="@color/green_100" />
     </LinearLayout>
 
     <LinearLayout
@@ -78,60 +78,60 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="5dp"
-            android:buttonTint="#2196F3"
-            android:outlineAmbientShadowColor="#2196F3"
-            android:outlineSpotShadowColor="#2196F3"
+            android:buttonTint="@color/green_100"
+            android:outlineAmbientShadowColor="@color/green_100"
+            android:outlineSpotShadowColor="@color/green_100"
             android:paddingHorizontal="20px"
             android:paddingVertical="20px"
-            android:shadowColor="#2196F3"
+            android:shadowColor="@color/green_100"
             android:text="A"
-            android:textColor="#15AEF3"
-            android:textColorLink="#2196F3" />
+            android:textColor="@color/green_100"
+            android:textColorLink="@color/green_100" />
 
         <CheckBox
             android:id="@+id/BM"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="5dp"
-            android:buttonTint="#2196F3"
-            android:outlineAmbientShadowColor="#2196F3"
-            android:outlineSpotShadowColor="#2196F3"
+            android:buttonTint="@color/green_100"
+            android:outlineAmbientShadowColor="@color/green_100"
+            android:outlineSpotShadowColor="@color/green_100"
             android:paddingHorizontal="20px"
             android:paddingVertical="20px"
-            android:shadowColor="#2196F3"
+            android:shadowColor="@color/green_100"
             android:text="B"
-            android:textColor="#15AEF3"
-            android:textColorLink="#2196F3" />
+            android:textColor="@color/green_100"
+            android:textColorLink="@color/green_100" />
 
         <CheckBox
             android:id="@+id/CM"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="5dp"
-            android:buttonTint="#2196F3"
-            android:outlineAmbientShadowColor="#2196F3"
-            android:outlineSpotShadowColor="#2196F3"
+            android:buttonTint="@color/green_100"
+            android:outlineAmbientShadowColor="@color/green_100"
+            android:outlineSpotShadowColor="@color/green_100"
             android:paddingHorizontal="20px"
             android:paddingVertical="20px"
-            android:shadowColor="#2196F3"
+            android:shadowColor="@color/green_100"
             android:text="C"
-            android:textColor="#15AEF3"
-            android:textColorLink="#2196F3" />
+            android:textColor="@color/green_100"
+            android:textColorLink="@color/green_100" />
 
         <CheckBox
             android:id="@+id/DM"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="5dp"
-            android:buttonTint="#2196F3"
-            android:outlineAmbientShadowColor="#2196F3"
-            android:outlineSpotShadowColor="#2196F3"
+            android:buttonTint="@color/green_100"
+            android:outlineAmbientShadowColor="@color/green_100"
+            android:outlineSpotShadowColor="@color/green_100"
             android:paddingHorizontal="20px"
             android:paddingVertical="20px"
-            android:shadowColor="#2196F3"
+            android:shadowColor="@color/green_100"
             android:text="D"
-            android:textColor="#15AEF3"
-            android:textColorLink="#2196F3" />
+            android:textColor="@color/green_100"
+            android:textColorLink="@color/green_100" />
 
     </LinearLayout>
 
@@ -141,7 +141,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:text="Major Chords"
-        android:textColor="#15AEF3"
+        android:textColor="@color/green_100"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -161,45 +161,45 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="5dp"
-            android:buttonTint="#2196F3"
-            android:outlineAmbientShadowColor="#2196F3"
-            android:outlineSpotShadowColor="#2196F3"
+            android:buttonTint="@color/green_100"
+            android:outlineAmbientShadowColor="@color/green_100"
+            android:outlineSpotShadowColor="@color/green_100"
             android:paddingHorizontal="20px"
             android:paddingVertical="20px"
-            android:shadowColor="#2196F3"
+            android:shadowColor="@color/green_100"
             android:text="E"
-            android:textColor="#15AEF3"
-            android:textColorLink="#2196F3" />
+            android:textColor="@color/green_100"
+            android:textColorLink="@color/green_100" />
 
         <CheckBox
             android:id="@+id/Fm"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="5dp"
-            android:buttonTint="#2196F3"
-            android:outlineAmbientShadowColor="#2196F3"
-            android:outlineSpotShadowColor="#2196F3"
+            android:buttonTint="@color/green_100"
+            android:outlineAmbientShadowColor="@color/green_100"
+            android:outlineSpotShadowColor="@color/green_100"
             android:paddingHorizontal="20px"
             android:paddingVertical="20px"
-            android:shadowColor="#2196F3"
+            android:shadowColor="@color/green_100"
             android:text="F"
-            android:textColor="#15AEF3"
-            android:textColorLink="#2196F3" />
+            android:textColor="@color/green_100"
+            android:textColorLink="@color/green_100" />
 
         <CheckBox
             android:id="@+id/Gm"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginHorizontal="5dp"
-            android:buttonTint="#2196F3"
-            android:outlineAmbientShadowColor="#2196F3"
-            android:outlineSpotShadowColor="#2196F3"
+            android:buttonTint="@color/green_100"
+            android:outlineAmbientShadowColor="@color/green_100"
+            android:outlineSpotShadowColor="@color/green_100"
             android:paddingHorizontal="20px"
             android:paddingVertical="20px"
-            android:shadowColor="#2196F3"
+            android:shadowColor="@color/green_100"
             android:text="G"
-            android:textColor="#15AEF3"
-            android:textColorLink="#2196F3" />
+            android:textColor="@color/green_100"
+            android:textColorLink="@color/green_100" />
     </LinearLayout>
 
     <LinearLayout
@@ -217,60 +217,60 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="5dp"
-            android:buttonTint="#2196F3"
-            android:outlineAmbientShadowColor="#2196F3"
-            android:outlineSpotShadowColor="#2196F3"
+            android:buttonTint="@color/green_100"
+            android:outlineAmbientShadowColor="@color/green_100"
+            android:outlineSpotShadowColor="@color/green_100"
             android:paddingHorizontal="20px"
             android:paddingVertical="20px"
-            android:shadowColor="#2196F3"
+            android:shadowColor="@color/green_100"
             android:text="A"
-            android:textColor="#15AEF3"
-            android:textColorLink="#2196F3" />
+            android:textColor="@color/green_100"
+            android:textColorLink="@color/green_100" />
 
         <CheckBox
             android:id="@+id/Bm"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="5dp"
-            android:buttonTint="#2196F3"
-            android:outlineAmbientShadowColor="#2196F3"
-            android:outlineSpotShadowColor="#2196F3"
+            android:buttonTint="@color/green_100"
+            android:outlineAmbientShadowColor="@color/green_100"
+            android:outlineSpotShadowColor="@color/green_100"
             android:paddingHorizontal="20px"
             android:paddingVertical="20px"
-            android:shadowColor="#2196F3"
+            android:shadowColor="@color/green_100"
             android:text="B"
-            android:textColor="#15AEF3"
-            android:textColorLink="#2196F3" />
+            android:textColor="@color/green_100"
+            android:textColorLink="@color/green_100" />
 
         <CheckBox
             android:id="@+id/Cm"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="5dp"
-            android:buttonTint="#2196F3"
-            android:outlineAmbientShadowColor="#2196F3"
-            android:outlineSpotShadowColor="#2196F3"
+            android:buttonTint="@color/green_100"
+            android:outlineAmbientShadowColor="@color/green_100"
+            android:outlineSpotShadowColor="@color/green_100"
             android:paddingHorizontal="20px"
             android:paddingVertical="20px"
-            android:shadowColor="#2196F3"
+            android:shadowColor="@color/green_100"
             android:text="C"
-            android:textColor="#15AEF3"
-            android:textColorLink="#2196F3" />
+            android:textColor="@color/green_100"
+            android:textColorLink="@color/green_100" />
 
         <CheckBox
             android:id="@+id/Dm"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="5dp"
-            android:buttonTint="#2196F3"
-            android:outlineAmbientShadowColor="#2196F3"
-            android:outlineSpotShadowColor="#2196F3"
+            android:buttonTint="@color/green_100"
+            android:outlineAmbientShadowColor="@color/green_100"
+            android:outlineSpotShadowColor="@color/green_100"
             android:paddingHorizontal="20px"
             android:paddingVertical="20px"
-            android:shadowColor="#2196F3"
+            android:shadowColor="@color/green_100"
             android:text="D"
-            android:textColor="#15AEF3"
-            android:textColorLink="#2196F3" />
+            android:textColor="@color/green_100"
+            android:textColorLink="@color/green_100" />
 
     </LinearLayout>
 
@@ -280,7 +280,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="Minor Chords"
-        android:textColor="#15AEF3"
+        android:textColor="@color/green_100"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -301,7 +301,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Time (sec)"
-            android:textColor="#15AEF3"
+            android:textColor="@color/green_100"
             android:textSize="18sp" />
 
         <EditText
@@ -311,7 +311,7 @@
             android:layout_marginLeft="10dp"
             android:ems="10"
             android:inputType="numberDecimal"
-            android:textColor="#15AEF3"
+            android:textColor="@color/green_100"
             android:textSize="18sp" />
     </LinearLayout>
 
@@ -333,10 +333,11 @@
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="50dp"
-        android:background="#2196F3"
-        android:backgroundTint="#2196F3"
+        android:background="@color/green_100"
+        android:backgroundTint="@color/green_100"
         android:text="Start"
-        android:textColorLink="#2196F3"
+        android:textColor="@color/green_700"
+        android:textColorLink="@color/green_100"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
