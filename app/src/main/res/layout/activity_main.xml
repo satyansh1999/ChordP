@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00101C"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/MajorLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MajorLayout1">
+
+        <CheckBox
+            android:id="@+id/EM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:buttonTint="#2196F3"
+            android:outlineAmbientShadowColor="#2196F3"
+            android:outlineSpotShadowColor="#2196F3"
+            android:paddingHorizontal="20px"
+            android:paddingVertical="20px"
+            android:shadowColor="#2196F3"
+            android:text="E"
+            android:textColor="#15AEF3"
+            android:textColorLink="#2196F3" />
+
+        <CheckBox
+            android:id="@+id/FM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:buttonTint="#2196F3"
+            android:outlineAmbientShadowColor="#2196F3"
+            android:outlineSpotShadowColor="#2196F3"
+            android:paddingHorizontal="20px"
+            android:paddingVertical="20px"
+            android:shadowColor="#2196F3"
+            android:text="F"
+            android:textColor="#15AEF3"
+            android:textColorLink="#2196F3" />
+
+        <CheckBox
+            android:id="@+id/GM"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="5dp"
+            android:buttonTint="#2196F3"
+            android:outlineAmbientShadowColor="#2196F3"
+            android:outlineSpotShadowColor="#2196F3"
+            android:paddingHorizontal="20px"
+            android:paddingVertical="20px"
+            android:shadowColor="#2196F3"
+            android:text="G"
+            android:textColor="#15AEF3"
+            android:textColorLink="#2196F3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/MajorLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingHorizontal="20px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MajorTV">
+
+        <CheckBox
+            android:id="@+id/AM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:buttonTint="#2196F3"
+            android:outlineAmbientShadowColor="#2196F3"
+            android:outlineSpotShadowColor="#2196F3"
+            android:paddingHorizontal="20px"
+            android:paddingVertical="20px"
+            android:shadowColor="#2196F3"
+            android:text="A"
+            android:textColor="#15AEF3"
+            android:textColorLink="#2196F3" />
+
+        <CheckBox
+            android:id="@+id/BM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:buttonTint="#2196F3"
+            android:outlineAmbientShadowColor="#2196F3"
+            android:outlineSpotShadowColor="#2196F3"
+            android:paddingHorizontal="20px"
+            android:paddingVertical="20px"
+            android:shadowColor="#2196F3"
+            android:text="B"
+            android:textColor="#15AEF3"
+            android:textColorLink="#2196F3" />
+
+        <CheckBox
+            android:id="@+id/CM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:buttonTint="#2196F3"
+            android:outlineAmbientShadowColor="#2196F3"
+            android:outlineSpotShadowColor="#2196F3"
+            android:paddingHorizontal="20px"
+            android:paddingVertical="20px"
+            android:shadowColor="#2196F3"
+            android:text="C"
+            android:textColor="#15AEF3"
+            android:textColorLink="#2196F3" />
+
+        <CheckBox
+            android:id="@+id/DM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:buttonTint="#2196F3"
+            android:outlineAmbientShadowColor="#2196F3"
+            android:outlineSpotShadowColor="#2196F3"
+            android:paddingHorizontal="20px"
+            android:paddingVertical="20px"
+            android:shadowColor="#2196F3"
+            android:text="D"
+            android:textColor="#15AEF3"
+            android:textColorLink="#2196F3" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/MajorTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Major Chords"
+        android:textColor="#15AEF3"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/MinorLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MinorLayout1">
+
+        <CheckBox
+            android:id="@+id/Em"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:buttonTint="#2196F3"
+            android:outlineAmbientShadowColor="#2196F3"
+            android:outlineSpotShadowColor="#2196F3"
+            android:paddingHorizontal="20px"
+            android:paddingVertical="20px"
+            android:shadowColor="#2196F3"
+            android:text="E"
+            android:textColor="#15AEF3"
+            android:textColorLink="#2196F3" />
+
+        <CheckBox
+            android:id="@+id/Fm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:buttonTint="#2196F3"
+            android:outlineAmbientShadowColor="#2196F3"
+            android:outlineSpotShadowColor="#2196F3"
+            android:paddingHorizontal="20px"
+            android:paddingVertical="20px"
+            android:shadowColor="#2196F3"
+            android:text="F"
+            android:textColor="#15AEF3"
+            android:textColorLink="#2196F3" />
+
+        <CheckBox
+            android:id="@+id/Gm"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="5dp"
+            android:buttonTint="#2196F3"
+            android:outlineAmbientShadowColor="#2196F3"
+            android:outlineSpotShadowColor="#2196F3"
+            android:paddingHorizontal="20px"
+            android:paddingVertical="20px"
+            android:shadowColor="#2196F3"
+            android:text="G"
+            android:textColor="#15AEF3"
+            android:textColorLink="#2196F3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/MinorLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingHorizontal="20px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MinorTV">
+
+        <CheckBox
+            android:id="@+id/Am"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:buttonTint="#2196F3"
+            android:outlineAmbientShadowColor="#2196F3"
+            android:outlineSpotShadowColor="#2196F3"
+            android:paddingHorizontal="20px"
+            android:paddingVertical="20px"
+            android:shadowColor="#2196F3"
+            android:text="A"
+            android:textColor="#15AEF3"
+            android:textColorLink="#2196F3" />
+
+        <CheckBox
+            android:id="@+id/Bm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:buttonTint="#2196F3"
+            android:outlineAmbientShadowColor="#2196F3"
+            android:outlineSpotShadowColor="#2196F3"
+            android:paddingHorizontal="20px"
+            android:paddingVertical="20px"
+            android:shadowColor="#2196F3"
+            android:text="B"
+            android:textColor="#15AEF3"
+            android:textColorLink="#2196F3" />
+
+        <CheckBox
+            android:id="@+id/Cm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:buttonTint="#2196F3"
+            android:outlineAmbientShadowColor="#2196F3"
+            android:outlineSpotShadowColor="#2196F3"
+            android:paddingHorizontal="20px"
+            android:paddingVertical="20px"
+            android:shadowColor="#2196F3"
+            android:text="C"
+            android:textColor="#15AEF3"
+            android:textColorLink="#2196F3" />
+
+        <CheckBox
+            android:id="@+id/Dm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:buttonTint="#2196F3"
+            android:outlineAmbientShadowColor="#2196F3"
+            android:outlineSpotShadowColor="#2196F3"
+            android:paddingHorizontal="20px"
+            android:paddingVertical="20px"
+            android:shadowColor="#2196F3"
+            android:text="D"
+            android:textColor="#15AEF3"
+            android:textColorLink="#2196F3" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/MinorTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Minor Chords"
+        android:textColor="#15AEF3"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MajorLayout2" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MinorLayout2">
+
+        <TextView
+            android:id="@+id/TV3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time (sec)"
+            android:textColor="#15AEF3"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/IntervalTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:textColor="#15AEF3"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/CurrentChord"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#E1E1E1"
+        android:textSize="96sp"
+        app:layout_constraintBottom_toTopOf="@+id/Action"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        tools:text="-" />
+
+    <Button
+        android:id="@+id/Action"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:background="#2196F3"
+        android:backgroundTint="#2196F3"
+        android:text="Start"
+        android:textColorLink="#2196F3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
